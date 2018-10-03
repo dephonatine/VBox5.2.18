@@ -1,0 +1,17 @@
+%ffff9dbd819e7e00: ffffffffc03e2bd3 0000000000000000
+%ffff9dbd819e7e10: ffff885fb1175410 000100010000009c
+%ffff9dbd819e7e20: ffffff1f00000000 000000000000001c
+%ffff9dbd819e7e30: 7d2f56e1669f4800 ffff885fbd0f16a8
+%ffff9dbd819e7e40: 00007ffe2efad340 ffff885fb809f000
+%ffff9dbd819e7e50: 00000000c09c5604 00007ffe2efad340
+
+%ffffffffc03e5acf e8 8c 1a 00 00          call 0ffffffffc03e7560h
+%ffffffffc03e5ad4 85 c0                   test eax, eax
+%ffffffffc03e5ad6 41 89 c5                mov r13d, eax
+%ffffffffc03e5ad9 78 41                   js +041h (0ffffffffc03e5b1ch)
+%ffffffffc03e5adb 4c 8b 55 b8             mov r10, qword [rbp-048h]
+%ffffffffc03e5adf 49 8b 7a 78             mov rdi, qword [r10+078h]
+%ffffffffc03e5ae3 e8 f8 98 00 00          call 0ffffffffc03ef3e0h
+
+ffffffffc01bdd08
+call 0ffffffffc01bc1a0h
